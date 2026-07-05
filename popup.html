@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dopamine Guard</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">⏸</div>
+      <div class="header-text">
+        <h1>Dopamine Guard</h1>
+        <p>Sites that make you pause</p>
+      </div>
+    </header>
+
+    <div class="add-section">
+      <div class="input-row">
+        <input
+          type="text"
+          id="domain-input"
+          placeholder="reddit.com"
+          autocomplete="off"
+          spellcheck="false"
+        />
+        <button id="add-btn">Add</button>
+      </div>
+      <p class="input-hint" id="input-hint"></p>
+    </div>
+
+    <div class="list-section">
+      <div class="list-header">
+        <span class="list-label">Blocked sites</span>
+        <span class="list-count" id="list-count">0</span>
+      </div>
+      <ul class="domain-list" id="domain-list">
+        <li class="empty-state" id="empty-state">
+          <span>No sites added yet.</span>
+          <span class="empty-sub">Add a domain above to get started.</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

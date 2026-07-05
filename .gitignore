@@ -1,0 +1,15 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Editor folders
+.vscode/
+.idea/
+
+# Temporary archives
+*.zip
+*.crx
+*.pem

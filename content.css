@@ -1,0 +1,10 @@
+/* Styles are injected via Shadow DOM in content.js */
+#dopamine-guard-host {
+  position: fixed !important;
+  inset: 0 !important;
+  z-index: 2147483647 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  pointer-events: all !important;
+  display: block !important;
+}
