@@ -99,25 +99,6 @@ After editing files:
 3. Click the reload button.
 4. Test the extension again.
 
-## GitHub quick start
-
-From inside the project folder:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/dopamine-guard.git
-git push -u origin main
-```
-
-Or, using the GitHub CLI:
-
-```bash
-gh repo create dopamine-guard --public --source=. --remote=origin --push
-```
-
 ## Roadmap ideas
 
 - Custom countdown duration.
